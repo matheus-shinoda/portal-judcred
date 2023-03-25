@@ -1,0 +1,183 @@
+﻿/* rt-tab element-twelve */
+
+.rt-tab.element-twelve{
+	display:flex;
+	align-items:stretch;
+	box-shadow:0px 0px 30px rgba(0,0,0,0.1);
+}
+
+.rt-tab.element-twelve:after{
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs{
+	width:22%;
+	float:left;
+	
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li{
+	width:100%;
+	margin-bottom:0;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li > a{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:23px 40px 22px 40px;
+	background-color:transparent;
+	border-top:none;
+	border-right:none;
+	border-bottom:1px #d7d7d7 solid;
+	border-left:none;
+	border-radius:0;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:15px;
+	color:#000;
+	line-height:26px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li:last-child > a{
+	border-bottom:none;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li.active > a{
+	background-color:#282828;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li > a:before{
+	position:absolute;
+	top:50%;
+	left:100%;
+	content:" ";
+	width:0;
+	height:0;
+	pointer-events:none;
+	border:solid transparent;
+	border-color:rgba(40, 40, 40, 0);
+	border-left-color:#282828;
+	border-width:0;
+	margin-top:0;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li.active > a:before{
+	border-width:12px;
+	margin-top:-12px;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li > a i{
+	display:block;
+	margin-bottom:10px;
+	font-size:40px;
+	color:#282828;
+	line-height:1;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-tab.element-twelve > ul.nav-tabs > li.active > a i{
+}
+
+.rt-tab.element-twelve > .tab-content{
+	width:78%;
+	float:left;
+	padding:30px;
+	border-left:1px #d7d7d7 solid;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/* rt-tab element-twelve */
+
+	.rt-tab.element-twelve > ul.nav-tabs{
+		width:30%;
+	}
+
+	.rt-tab.element-twelve > .tab-content{
+		width:70%;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* rt-tab element-twelve */
+
+	.rt-tab.element-twelve{
+		display:block;
+	}
+
+	.rt-tab.element-twelve > ul.nav-tabs,
+	.rt-tab.element-twelve > .tab-content{
+		width:100%;
+		border:none;
+	}
+
+	.rt-tab.element-twelve > ul.nav-tabs > li > a:before{
+		display:none;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* rt-tab element-twelve */
+
+	.rt-tab.element-twelve{
+		display:block;
+	}
+
+	.rt-tab.element-twelve > ul.nav-tabs,
+	.rt-tab.element-twelve > .tab-content{
+		width:100%;
+		border:none;
+	}
+
+	.rt-tab.element-twelve > ul.nav-tabs > li > a:before{
+		display:none;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* rt-tab element-twelve */
+
+	.rt-tab.element-twelve{
+		display:block;
+	}
+
+	.rt-tab.element-twelve > ul.nav-tabs,
+	.rt-tab.element-twelve > .tab-content{
+		width:100%;
+		border:none;
+	}
+
+	.rt-tab.element-twelve > ul.nav-tabs > li > a:before{
+		display:none;
+	}
+
+}

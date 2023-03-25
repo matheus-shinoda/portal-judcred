@@ -1,0 +1,940 @@
+/* ================================== */
+/* START OF COMMON SECTION */
+/* ================================== */
+
+.portfolio-megamenu > .rt-mega-menu{
+    left:auto;
+    right:0;
+}
+
+.footer-newsletter-form .form-row{
+    position:relative;
+}
+
+.footer-newsletter-form .form-row input[type="email"]{
+    margin-bottom:0;
+}
+
+.footer-newsletter-form .form-row button[type="submit"]{
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
+}
+
+/* ================================== */
+/* END OF COMMON SECTION */
+/* ================================== */
+
+.after-border:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    width: 1px;
+    height: 100%;
+    background-color: #e5e5e5;
+}
+.wraper_header.style-three .header_main_action ul > li.header-cart-bar > .header-cart-bar-icon .cart-count,
+.wraper_header.style-three .nav > [class*="menu-"] > ul.menu > li > a::before{
+background-color:#0d3d73 !important;
+}
+
+.product-showcase-choose-box-item{
+    box-shadow:0px 0px 15px rgba(0,0,0,0.08);
+}
+.product-showcase-choose-box-item:hover{
+    background-color: #50c19a!important;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    transform:scale(1.1);
+}
+
+.hover-box:hover{
+    background:#fff;
+    box-shadow:0px 0px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+/* ================================== */
+/* START OF HOME PAGE ONE */
+/* ================================== */
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+    div .background-image-responsive{
+        background-size:34% !important;
+    }
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    div .background-image-responsive{
+        background-size:50% !important;
+    }
+}
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+    div .background-image-responsive{
+        background-size:50% !important;
+    }
+}
+
+/* ================================== */
+/* END OF HOME PAGE ONE */
+/* ================================== */
+
+/* ================================== */
+/* START OF HOME PAGE TWO */
+/* ================================== */
+.middle-border{
+    position:relative;
+}
+.middle-border div:after{
+    position:absolute;
+    top:35px;
+    left:50%;
+    margin-left: 120px;
+    display:block;
+    width:158px;
+    height:1px;
+    background-color:rgba(0,0,0,0.2);
+}
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+    .middle-border div:after{
+    display:none;
+    position:static;
+}
+}
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+    .middle-border div:after{
+    display:none;
+    position:static;
+}
+}
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+    .middle-border div:after{
+    display:none;
+    position:static;
+}
+}
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+    .middle-border div:after{
+    display:none;
+    position:static;
+}
+}
+
+/* ================================== */
+/* START OF HOME PAGE THREE */
+/* ================================== */
+
+.home-three-investment-box > .vc_column-inner{
+    position:relative;
+}
+
+.home-three-investment-box-title{
+    bottom: -10px;
+    left: 50%;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    display: inline-block;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+
+.home-three-investment-box > .vc_column-inner:hover .home-three-investment-box-title{
+    background-color:#50c19a !important;
+    color:#fff !important;
+}
+
+/* ================================== */
+/* END OF HOME PAGE THREE */
+/* ================================== */
+
+/* ================================== */
+/* START OF HOME PAGE FOUR */
+/* ================================== */
+
+.home-four-modern-box > .vc_column-inner{
+    box-shadow:0px 0px 38px rgba(0,0,0,0.1);
+}
+
+.home-four-software-pic{
+    width:595px;
+    margin-left:-15px;
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .home-four-software-pic{
+        width:100%;
+        margin-left:0;
+    }
+
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    .home-four-software-pic{
+        width:100%;
+        margin-left:0;
+    }
+
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+    .home-four-software-pic{
+        width:100%;
+        margin-left:0;
+    }
+
+
+}
+
+/* ================================== */
+/* START OF HOME PAGE FOUR */
+/* ================================== */
+
+/* ================================== */
+/* START OF HOME PAGE FIVE */
+/* ================================== */
+
+.home-five-financial-solution-pic{
+    width:698px;
+    float:right;
+    margin-right:-60px;
+}
+    .page-id-7896 .cart-count{
+    background-color:#2b2843 !important;
+    }
+    .about-five:hover .main-layout .icon img {
+    filter: brightness(1) invert(1) !important;
+}
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .home-five-financial-solution-pic{
+        width:100%;
+        margin-right:0;
+    }
+
+    .home-five-financial-solution{
+        margin-top:0;
+    }
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    div .home-five-financial-solution-pic{
+        width:100%;
+        margin-right:0;
+        margin-bottom:35px !important;
+    }
+
+
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+   div .home-five-financial-solution-pic{
+        width:100%;
+        margin-right:0;
+        margin-bottom:35px !important;
+    }
+
+
+}
+
+/* ================================== */
+/* END OF HOME PAGE FIVE */
+/* ================================== */
+
+/* ================================== */
+/* START OF HOME PAGE SIX */
+/* ================================== */
+
+.home-six-banner-image{
+    width:1040px;
+}
+
+.home-six-manage-budget-pic{
+    width:575px;
+    float:right;
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .home-six-banner-image,
+    .home-six-manage-budget-pic{
+        width:100%;
+    }
+
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    .home-six-banner-image,
+    .home-six-manage-budget-pic{
+        width:100%;
+    }
+
+
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+    .home-six-banner-image,
+    .home-six-manage-budget-pic{
+        width:100%;
+    }
+
+
+
+}
+
+/* ================================== */
+/* END OF HOME PAGE SIX */
+/* ================================== */
+
+/* ================================== */
+/* START OF HOME PAGE SEVEN */
+/* ================================== */
+
+.home-seven-investment-plan{
+    background:#fff !important;
+    transition:all 0.3s ease-in-out;
+}
+
+.home-seven-investment-plan:hover{
+    transform:scale(1.1);
+    box-shadow:0 0px 54px rgba(0,0,0,0.2);
+    transition:all 0.3s ease-in-out;
+    border:none;
+    z-index:2;
+}
+.home-seven-laptop-demo{
+    width: 940px;
+    float: right;
+    margin-right: 30px;
+}
+.page-id-7924 .cart-count{
+background-color:#75c305 !important;
+}
+.page-id-7924 .nav > [class*="menu-"] > ul.menu > li > a:before {
+background-color:#75c305 !important;
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:768px){
+
+   .home-seven-laptop-demo{
+        width: 100%;
+        margin-right:0;
+    }
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    .home-seven-laptop-demo{
+        width: 100%;
+        margin-right:0;
+    }
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+    .home-seven-laptop-demo{
+        width: 100%;
+        margin-right:0;
+    }
+
+}
+
+
+
+/* ================================== */
+/* END OF HOME PAGE SEVEN */
+/* ================================== */
+
+/* ================================== */
+/* START OF HOME PAGE EIGHT */
+/* ================================== */
+
+.home-eight-membership-sticker{
+    top:0;
+    right:0;
+    z-index:1;
+}
+.home-eight-laptop-demo{
+    width: 1060px;
+    margin-left: -118px;
+}
+.page-id-7969 .cart-count{
+background-color:#6760bc !important;
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:768px){
+
+    .home-eight-laptop-demo{
+        width: 100%;
+        margin-left:0;
+    }
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    .home-eight-laptop-demo{
+        width: 100%;
+        margin-left:0;
+    }
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+    .home-eight-laptop-demo{
+        width: 100%;
+        margin-left:0;
+    }
+
+}
+
+
+/* ================================== */
+/* END OF HOME PAGE EIGHT */
+/* ================================== */
+
+/* ================================== */
+/* START OF HOME PAGE TEN */
+/* ================================== */
+.home-version-ten-main{
+position:relative;
+}
+.home-version-ten-main div{
+    background-position:center bottom !important;
+
+}
+
+.home-version-ten-hover-text{
+visibility:visible;
+opacity:1;
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+}
+
+.home-version-ten-hover-text h2{
+    color:#fff;
+    font-size:20px;
+    line-height:35px;
+    font-weight:600;
+    letter-spacing:0px;
+}
+.home-version-ten-hover-text p{
+    color:#fff;
+    font-size:14px;
+    line-height:20px;
+    font-weight:500;
+    letter-spacing:0px;
+}
+
+
+/* ================================== */
+/* END OF HOME PAGE TEN */
+/* ================================== */
+
+/* ================================== */
+/* START OF ABOUT PAGE FIVE */
+/* ================================== */
+.about-five-image{
+    width:453px;
+    margin-left:-30px;
+}
+
+/* ================================== */
+/* END OF ABOUT PAGE FIVE */
+/* ================================== */
+
+/* ================================== */
+/* START OF ABOUT PAGE SIX */
+/* ================================== */
+
+.about-six-text-hover:hover h2{
+    color:#0d3d73;
+}
+
+/* ================================== */
+/* END OF ABOUT PAGE SIX */
+/* ================================== */
+
+/* ================================== */
+/* START OF SERVICE PAGE ONE */
+/* ================================== */
+
+.service-pricing-best-tag{
+    right:0;
+}
+
+/* ================================== */
+/* END OF SERVICE PAGE ONE */
+/* ================================== */
+
+/* ================================== */
+/* START OF SERVICE PAGE TWO */
+/* ================================== */
+
+.service-two-laptop-demo{
+    width: 850px;
+    float: right;
+    margin-right: -30px;
+}
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:768px){
+
+    .service-two-laptop-demo{
+        width: 100%;
+        margin-right:0;
+    }
+
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+
+    .service-two-laptop-demo{
+        width: 100%;
+        margin-right:0;
+    }
+
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+
+    .service-two-laptop-demo{
+        width: 100%;
+        margin-right:0;
+    }
+
+
+}
+/* ================================== */
+/* END OF SERVICE PAGE TWo */
+/*
+
+/* ================================== */
+/* START OF PORTFOLIO PAGE ONE */
+/* ================================== */
+
+.custom-icon ul li{
+    display:inline-block;
+    vertical-align:top;
+    margin-right:8px;
+}
+
+.custom-icon ul li a{
+    color:#0f192d;
+}
+
+/* ================== */
+/* START OF LANDING PAGE */
+/* ================== */
+
+.landing-customize-image{
+    width:767px;
+    float:right;
+}
+
+.landing-blogging-image{
+    width:917px;
+}
+
+.landing-feature-box-item > .vc_column-inner{
+    box-shadow:0px 0px 8px rgba(0,0,0,0.15);
+    transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.landing-feature-box-item > .vc_column-inner:hover{
+    box-shadow:0px 0px 30px rgba(0,0,0,0.15);
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .landing-customize-image,
+    .landing-blogging-image{
+        width:100%;
+    }
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    .landing-customize-image,
+    .landing-blogging-image{
+        width:100%;
+    }
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+    .landing-customize-image,
+    .landing-blogging-image{
+        width:100%;
+    }
+
+}
+
+/* ================== */
+/* END OF LANDING PAGE */
+/* ================== */
+
+/* ================== */
+/* START OF CONTACT PAGE */
+/* ================== */
+
+/* ================== */
+/* END OF CONTACT PAGE */
+/* ================== */
+
+/* ================== */
+/* CSS RAFA 2020 */
+/* ================== */
+
+/* HOME */
+
+.header_top_item .header-top-note a {
+    color: #d2b035;
+}
+
+.email_topo_header {
+    position: absolute;
+    top: -1px;
+    right: -100%;
+    color: #8a8a8a;
+    font-size: 13px;
+    z-index: 1;
+}
+
+
+.titulo_home {
+    font-size: 44px;
+    line-height: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #181818;
+}
+
+.subtitulo_home {
+    font-size: 25px;
+}
+
+.vc_progress_bar .vc_single_bar {
+margin-bottom: 2px !important;
+box-shadow: 0 1px 2px rgba(0,0,0,.0) inset !important;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li {
+    width: 25% !important;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li > a {
+    background-color: #c5c5c5 !important;
+}
+
+.rt-tab.element-five > ul.nav-tabs > li.active > a {
+    background-color: #0d3d73 !important;
+}
+
+@media screen and (max-width:1200px) {
+    .titulo_home {
+        font-size: 37px;
+        line-height: 37px;
+}
+    .subtitulo_home {
+        font-size: 21px;
+}
+    #home_valores .font-weight-semibold {
+        font-size: 17px !important;
+        font-weight:800;
+}
+}		
+
+@media screen and (max-width:990px) {
+    .titulo_home {
+        font-size: 28px;
+        line-height: 28px;
+}
+    .subtitulo_home {
+        font-size: 19px;
+}
+    #home_valores .font-weight-semibold {
+        font-size: 22px !important;
+        font-weight:600;
+}
+    #home_valores .vc_col-sm-4 {
+        width: 100%;
+}
+}	
+
+/* QUEM SOMOS */
+
+.rt-fancy-text-box.element-ten > .holder {
+    border: solid 1px #e1e1e1;
+}
+
+.bg_linha_equipe_vert {
+    background: url(/public/images/bg_linha_equipe_vert.png) top center repeat-y;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+#equipe_quem_somos .rt-fancy-text-box.element-ten > .holder {
+    padding: 10px !important;
+    max-height: 200px !important;
+}
+#equipe_quem_somos .rt-fancy-text-box.element-ten > .holder > .data {
+    margin-right: 0px !important;
+}
+
+#equipe_quem_somos .rt-fancy-text-box.element-ten > .holder > .data .subtitle {
+    font-size: 14px !important;
+}
+}
+
+@media screen and (max-width:768px) {
+    .bg_linha_equipe_vert {
+        display: none;
+    }
+    .bg_linha_equipe_vert_inicio {
+        display: none !important;
+    }
+}
+
+/* CREDITOS */
+
+.creditos_itens h2 {
+    position: absolute !important;
+    font-weight: bold !important;
+    left: 0 !important;
+    font-size: 50px !important;
+    letter-spacing: -3px !important;
+    width: 100%;
+    text-align: center;
+}
+
+#creditos .creditos_itens h2 {
+    top: 22% !important;
+}
+
+#creditos2 .creditos_itens h2 {
+    top: 28% !important;
+}
+
+#creditos3 .creditos_itens h2 {
+    top: 28% !important;
+}
+
+.creditos_adicao h2 {
+    padding-top: 77px !important;
+}
+
+#creditos .radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#creditos .radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .panel-title {
+    font-size: 13px;
+}
+
+#creditos2 .radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#creditos2 .radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .panel-title {
+    font-size: 13px;
+}
+
+#creditos3 .radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#creditos3 .radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .panel-title {
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px) {
+    #creditos .creditos_itens h2 {
+    top: 18% !important;
+}
+    #creditos2 .creditos_itens h2 {
+    top: 21% !important;
+}
+.creditos_itens h2 {
+    font-size: 40px !important;
+}
+.creditos_adicao h2 {
+    padding-top: 57px !important;
+}
+}
+
+@media screen and (max-width:990px) {
+    #creditos .creditos_itens h2 {
+    top: 10% !important;
+}
+    #creditos2 .creditos_itens h2 {
+    top: 15% !important;
+}
+.creditos_itens h2 {
+    font-size: 30px !important;
+}
+.creditos_adicao h2 {
+    padding-top: 39px !important;
+}
+}
+
+@media screen and (max-width:768px) {
+    #creditos .creditos_itens h2 {
+    top: 29% !important;
+}
+    #creditos2 .creditos_itens h2 {
+    top: 33% !important;
+}
+.creditos_itens h2 {
+    font-size: 60px !important;
+}
+.creditos_adicao h2 {
+    padding-top: 19px !important;
+    padding-bottom: 45px !important;
+}
+.credito_grafico_rosquinha {
+    margin-left:25% !important;
+}
+}
+
+@media screen and (max-width:480px) {
+     #creditos .creditos_itens h2 {
+    top: 23% !important;
+}
+    #creditos2 .creditos_itens h2 {
+    top: 26% !important;
+}
+    .creditos_itens h2 {
+    font-size: 40px !important;
+}
+}
+
+/* DOWNLOADS */
+
+.downloads_botao {
+   float: left;
+    text-align: center;
+    padding: 12px 30px;
+    background-color: #ececec;
+    color: #777;
+    margin-right: 15px;
+    margin-bottom: 1px;
+    width: 100%;
+    line-height: 23px;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+}
+
+.downloads_botao:hover {
+   background-color: #cecece;
+   color: #fff;
+}
+
+#downloads_pagina .rt-tab.element-twelve > ul.nav-tabs > li.active > a {
+    background-color: #0d3d73;
+    color: #fff;
+}
+
+#downloads_pagina .rt-tab.element-twelve > ul.nav-tabs > li > a:before {
+    border-left-color: #0d3d73;
+}
+
+/* LGPD */
+
+.cky-footer-wrapper a {
+display:none;
+}
+
+.cky-footer-wrapper div {
+color: #ffffff !important;
+background-color: #ffffff !important;
+}
+
+
+/* RODAPE */
+
+.footer_main_item .widget_media_image img {
+    max-width: 100% !important;
+}
+
+.footer_main_item .widget-title {
+    color: #769e69 !important;
+}
+
+#nav_menu-3 {
+padding-left: 50px;
+}
+
+#nav_menu-4 {
+padding-left: 50px;
+}

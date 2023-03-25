@@ -1,0 +1,88 @@
+﻿/* radiantthemes-accordion element-two */
+
+.radiantthemes-accordion.element-two{
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item{
+	border:1px #f0f0f0 solid;
+	margin-bottom:1px;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item:last-child,
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item:only-child{
+	margin-bottom:0;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title{
+	position:relative;
+	padding-top:15px;
+	padding-right:40px;
+	padding-bottom:15px;
+	padding-left:15px;
+	cursor:pointer;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item:nth-child(odd) > .radiantthemes-accordion-item-title{
+	background-color:#f0f0f0;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item:nth-child(even) > .radiantthemes-accordion-item-title{
+	background-color:#f6f6f6;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item.radiantthemes-active > .radiantthemes-accordion-item-title{
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon{
+	position:absolute;
+	top:15px;
+	right:15px;
+	z-index:1;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon i.main-icon:before{
+	font-family:"FontAwesome";
+	content:"\f067";
+	font-size:15px;
+	color:#131320;
+	line-height:1;
+	font-style:normal;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item.radiantthemes-active > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon i.main-icon:before{
+	content:"\f068";
+	color:#fff;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .panel-title{
+	margin:0;
+	font-weight:500;
+	font-size:18px;
+	color:#131320;
+	line-height:28px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item.radiantthemes-active > .radiantthemes-accordion-item-title > .panel-title{
+	color:#fff;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-body{
+	padding-top:18px;
+	padding-right:15px;
+	padding-bottom:18px;
+	padding-left:15px;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-body > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.radiantthemes-accordion.element-two .radiantthemes-accordion-item > .radiantthemes-accordion-item-body p{
+	margin-bottom:17px;
+}
